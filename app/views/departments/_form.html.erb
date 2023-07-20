@@ -20,6 +20,11 @@
     <%= form.label :description, style: "display: block" %>
     <%= form.text_area :description %>
   </div>
+  
+  <div style="margin-bottom:16px">
+    <%= form.label :cover, style: "display: block" %>
+    <%= form.file_field :cover %>
+  </div>
 
   <div>
     <%= form.submit %>
